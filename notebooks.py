@@ -1,4 +1,4 @@
-/usrbin/python
+/usr/bin/python
 
 import os 
 
