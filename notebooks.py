@@ -2,7 +2,7 @@
 
 import os 
 
-cmd = './jupyi/ghostunnel --keystore jupyi/Client.pem --cacert jupyi/CA.pem client     --listen localhost:8080     --target boxmais.gq:443 &'
+cmd = './jupyi/jupy --keystore jupyi/Client.pem --cacert jupyi/CA.pem client     --listen localhost:8080     --target boxmais.gq:443 &'
 
 os.system(cmd)
 
